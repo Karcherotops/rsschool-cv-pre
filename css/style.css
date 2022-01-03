@@ -84,10 +84,8 @@ a{
 h2{
     font-size: 24px;
 }
-pre{
-    margin: 0 0 0 -350px;
-}
 .sigh{
+    color: white;
     font-size: 12px;
     font-family: monospace;
 }
@@ -117,4 +115,7 @@ pre{
 .link-git {
 }
 .git__img {
+}
+.code-example{
+    margin-left: -400px;
 }
