@@ -1,3 +1,120 @@
-h1{
-    color: aqua;
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+}
+header{
+}
+main{
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.navigation{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+.navigation-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navigation-list__points{
+    display: block;
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(214, 219, 223);
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+.avatar{
+}
+.foto{
+    border: 1px solid rgba(black, black, black, 1);
+    border-radius: 50%;
+
+}
+.name{
+    padding: 150px;
+    text-transform: uppercase;
+}
+.info-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+a{
+    display: block;
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(95, 100, 104);
+}
+.mainwrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainwrap-vertical{
+    flex: 0 1 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+h2{
+    font-size: 24px;
+}
+.code-function{
+    margin: 0 0 0 -350px;
+}
+.sigh{
+    font-size: 12px;
+    font-family: monospace;
+}
+.link {
+    display: flex;
+    justify-content:center
+}
+.link {
+}
+.link-label {
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.link-vk {
+}
+.vk__img {
+}
+.link-school {
+}
+.rsschool__img {
+    border: 1px solid black;
+    background-color: gold;
+    border-radius: 30%;
+    padding: 20px;
+    overflow: hidden;
+}
+.link-git {
+}
+.git__img {
 }
