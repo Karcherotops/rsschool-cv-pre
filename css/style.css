@@ -7,10 +7,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #34495E ;
-    color: white;
-    background: url('../assets/img/bg.jpg');
-    background-size: cover;
+    color: black;
+    background-color: white;
 }
 header{
 }
@@ -55,17 +53,14 @@ footer{
 
 }
 .name{
-    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
-    font-size: 36px;
-    color: white;
-    text-transform: uppercase;
     padding: 150px;
+    text-transform: uppercase;
 }
 .info-list{
     display: flex;
     justify-content: space-around;
     list-style: none;
-    color: whitesmoke;
+    color: black;
     text-align: center;
     font-weight: 700;
 }
@@ -73,7 +68,7 @@ a{
     display: block;
     font-weight: normal;
     text-decoration: none;
-    color: rgb(214, 219, 223);
+    color: rgb(95, 100, 104);
 }
 .mainwrap{
     display: flex;
@@ -84,6 +79,7 @@ a{
     margin: 10px;
     padding: 10px;
     background-color: black;
+    color: white;
 }
 h2{
     font-size: 24px;
